@@ -1,6 +1,6 @@
 <div align="center">
 
-# Xavier Kingsleen A
+# Xavier Kingsleen A.
 
 ### AWS Cloud Engineer • Cloud Support Engineer • Cloud Operations Engineer • SOC Analyst L1
 
@@ -26,7 +26,7 @@ Building practical experience across **AWS Cloud, Cloud Operations, Cloud Securi
 
 ## 👋 About Me
 
-I'm **Xavier Kingsleen A**, a BCA graduate focused on building practical skills in **AWS Cloud Engineering, Cloud Operations, Cloud Security, SOC Operations, and Networking**.
+I'm **Xavier Kingsleen A.**, a BCA graduate focused on building practical skills in **AWS Cloud Engineering, Cloud Operations, Cloud Security, SOC Operations, and Networking**.
 
 My approach is hands-on: I build, configure, troubleshoot, test, investigate, and document cloud and security environments rather than only listing technologies.
 
@@ -42,19 +42,16 @@ I'm currently targeting entry-level opportunities as an **AWS Cloud Engineer, Cl
 
 <div align="center">
 
-<a href="https://aws.amazon.com/"><img height="48" width="48" src="https://cdn.simpleicons.org/amazonwebservices" alt="AWS" title="AWS" /></a>
+<!-- Core platforms and skills -->
+<img src="https://skillicons.dev/icons?i=aws,linux,windows,powershell,git,github,html,css&perline=8" alt="AWS, Linux, Windows, PowerShell, Git, GitHub, HTML, CSS" />
+
+<br><br>
+
+<!-- Networking and security tools -->
 <a href="https://www.cisco.com/"><img height="48" width="48" src="https://cdn.simpleicons.org/cisco" alt="Cisco" title="Cisco Networking" /></a>
-<a href="https://www.linux.org/"><img height="48" width="48" src="https://cdn.simpleicons.org/linux" alt="Linux" title="Linux" /></a>
-<a href="https://www.microsoft.com/windows"><img height="48" width="48" src="https://cdn.simpleicons.org/windows" alt="Windows" title="Windows" /></a>
-<a href="https://learn.microsoft.com/powershell/"><img height="48" width="48" src="https://cdn.simpleicons.org/powershell" alt="PowerShell" title="PowerShell" /></a>
 <a href="https://www.kali.org/"><img height="48" width="48" src="https://cdn.simpleicons.org/kalilinux" alt="Kali Linux" title="Kali Linux" /></a>
 <a href="https://www.splunk.com/"><img height="48" width="48" src="https://cdn.simpleicons.org/splunk" alt="Splunk" title="Splunk" /></a>
 <a href="https://www.wireshark.org/"><img height="48" width="48" src="https://cdn.simpleicons.org/wireshark" alt="Wireshark" title="Wireshark" /></a>
-<a href="https://nmap.org/"><img height="48" width="48" src="https://cdn.simpleicons.org/nmap" alt="Nmap" title="Nmap" /></a>
-<a href="https://git-scm.com/"><img height="48" width="48" src="https://cdn.simpleicons.org/git" alt="Git" title="Git" /></a>
-<a href="https://github.com/"><img height="48" width="48" src="https://cdn.simpleicons.org/github" alt="GitHub" title="GitHub" /></a>
-<a href="https://developer.mozilla.org/docs/Web/HTML"><img height="48" width="48" src="https://cdn.simpleicons.org/html5" alt="HTML5" title="HTML5" /></a>
-<a href="https://developer.mozilla.org/docs/Web/CSS"><img height="48" width="48" src="https://cdn.simpleicons.org/css" alt="CSS" title="CSS" /></a>
 
 </div>
 
@@ -302,7 +299,7 @@ A full-stack academic application designed to digitize hostel operations through
 <div align="center">
 
 <a href="https://github.com/xavierkingsleen-11">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=xavierkingsleen-11&theme=github-compact&hide_border=true&area=true" alt="Xavier's GitHub Activity Graph">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=xavierkingsleen-11&theme=github-compact&hide_border=true" alt="Xavier's GitHub Activity Graph">
 </a>
 
 </div>
@@ -313,9 +310,9 @@ A full-stack academic application designed to digitize hostel operations through
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=xavierkingsleen-11&show_icons=true&hide_border=true&include_all_commits=true&rank_icon=github&theme=transparent" alt="GitHub Stats">
+<img height="170" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=xavierkingsleen-11&show_icons=true&hide_border=true&include_all_commits=true&rank_icon=github&theme=github_dark" alt="GitHub Stats">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=xavierkingsleen-11&layout=compact&hide_border=true&langs_count=8&theme=transparent" alt="Top Languages">
+<img height="170" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=xavierkingsleen-11&layout=compact&hide_border=true&langs_count=8&theme=github_dark" alt="Top Languages">
 
 </div>
 
@@ -325,7 +322,7 @@ A full-stack academic application designed to digitize hostel operations through
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=xavierkingsleen-11&theme=flat&no-frame=true&no-bg=true&margin-w=6&margin-h=6&column=4" alt="GitHub Profile Trophies">
+<img src="https://github-profile-trophy.vercel.app/?username=xavierkingsleen-11&theme=flat&no-frame=true&no-bg=true&margin-w=4&column=3" alt="GitHub Profile Trophies">
 
 </div>
 
