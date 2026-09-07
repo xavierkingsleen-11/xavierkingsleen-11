@@ -42,7 +42,7 @@ I'm currently targeting entry-level opportunities as an **AWS Cloud Engineer, Cl
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=aws,linux,windows,powershell,git,github,html,css,js,react,nodejs,mongodb&perline=12" alt="Technology icons">
+<img src="https://skillicons.dev/icons?i=aws,linux,windows,powershell,kali,git,github,html,css,vscode&perline=12" alt="Technology icons">
 
 </div>
 
