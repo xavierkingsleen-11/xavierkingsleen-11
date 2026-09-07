@@ -1,19 +1,19 @@
 <div align="center">
 
-# Xavier Kingsleen A.
+# Xavier Kingsleen A
 
 ### AWS Cloud Engineer • Cloud Support Engineer • Cloud Operations Engineer • SOC Analyst L1
 
 Building practical experience across **AWS Cloud, Cloud Operations, Cloud Security, SOC, and Networking**.
 
 <a href="https://xavier11sr-myportfolio.netlify.app">
-  <img src="https://img.shields.io/badge/Portfolio-Visit%20Website-0A66C2?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio">
+  <img src="https://img.shields.io/badge/Portfolio-Visit%20Website-0A66C2?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0A66C2" alt="Visit Portfolio">
 </a>
 <a href="https://linkedin.com/in/xavierkingsleen01">
-  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2" alt="Connect on LinkedIn">
 </a>
 <a href="https://github.com/xavierkingsleen-11">
-  <img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+  <img src="https://img.shields.io/badge/GitHub-Profile-24292F?style=for-the-badge&logo=github&logoColor=white&labelColor=24292F" alt="GitHub Profile">
 </a>
 
 <br>
@@ -26,7 +26,7 @@ Building practical experience across **AWS Cloud, Cloud Operations, Cloud Securi
 
 ## 👋 About Me
 
-I'm **Xavier Kingsleen A.**, a BCA graduate focused on building practical skills in **AWS Cloud Engineering, Cloud Operations, Cloud Security, SOC Operations, and Networking**.
+I'm **Xavier Kingsleen A**, a BCA graduate focused on building practical skills in **AWS Cloud Engineering, Cloud Operations, Cloud Security, SOC Operations, and Networking**.
 
 My approach is hands-on: I build, configure, troubleshoot, test, investigate, and document cloud and security environments rather than only listing technologies.
 
@@ -42,7 +42,19 @@ I'm currently targeting entry-level opportunities as an **AWS Cloud Engineer, Cl
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=aws,linux,windows,powershell,kali,git,github,html,css,vscode&perline=12" alt="Technology icons">
+<a href="https://aws.amazon.com/"><img height="48" width="48" src="https://cdn.simpleicons.org/amazonwebservices" alt="AWS" title="AWS" /></a>
+<a href="https://www.cisco.com/"><img height="48" width="48" src="https://cdn.simpleicons.org/cisco" alt="Cisco" title="Cisco Networking" /></a>
+<a href="https://www.linux.org/"><img height="48" width="48" src="https://cdn.simpleicons.org/linux" alt="Linux" title="Linux" /></a>
+<a href="https://www.microsoft.com/windows"><img height="48" width="48" src="https://cdn.simpleicons.org/windows" alt="Windows" title="Windows" /></a>
+<a href="https://learn.microsoft.com/powershell/"><img height="48" width="48" src="https://cdn.simpleicons.org/powershell" alt="PowerShell" title="PowerShell" /></a>
+<a href="https://www.kali.org/"><img height="48" width="48" src="https://cdn.simpleicons.org/kalilinux" alt="Kali Linux" title="Kali Linux" /></a>
+<a href="https://www.splunk.com/"><img height="48" width="48" src="https://cdn.simpleicons.org/splunk" alt="Splunk" title="Splunk" /></a>
+<a href="https://www.wireshark.org/"><img height="48" width="48" src="https://cdn.simpleicons.org/wireshark" alt="Wireshark" title="Wireshark" /></a>
+<a href="https://nmap.org/"><img height="48" width="48" src="https://cdn.simpleicons.org/nmap" alt="Nmap" title="Nmap" /></a>
+<a href="https://git-scm.com/"><img height="48" width="48" src="https://cdn.simpleicons.org/git" alt="Git" title="Git" /></a>
+<a href="https://github.com/"><img height="48" width="48" src="https://cdn.simpleicons.org/github" alt="GitHub" title="GitHub" /></a>
+<a href="https://developer.mozilla.org/docs/Web/HTML"><img height="48" width="48" src="https://cdn.simpleicons.org/html5" alt="HTML5" title="HTML5" /></a>
+<a href="https://developer.mozilla.org/docs/Web/CSS"><img height="48" width="48" src="https://cdn.simpleicons.org/css" alt="CSS" title="CSS" /></a>
 
 </div>
 
@@ -66,9 +78,9 @@ I'm currently targeting entry-level opportunities as an **AWS Cloud Engineer, Cl
 
 `TCP/IP` `IPv4/IPv6` `DNS` `DHCP` `ARP` `NAT` `VLAN` `Subnetting` `Routing` `Linux CLI` `Windows`
 
-### 💻 Development & Supporting Technologies
+### 💻 Web Fundamentals & Supporting Tools
 
-`HTML` `CSS` `JavaScript` `React` `Node.js` `Express.js` `MongoDB` `Git` `GitHub`
+`HTML` `CSS` `Git` `GitHub`
 
 ---
 
@@ -233,7 +245,7 @@ A SOC-style phishing investigation workflow using email header analysis, IOC val
 
 ## Digital Hostel Issue, Leave & Management System
 
-A **MERN-stack full-stack application** designed to digitize hostel operations through separate Student and Admin portals.
+A full-stack academic application designed to digitize hostel operations through separate Student and Admin portals.
 
 ### Key Features
 
@@ -251,7 +263,7 @@ A **MERN-stack full-stack application** designed to digitize hostel operations t
 - Emergency contact information
 - Real-time notifications
 
-**Stack:** `React` `Vite` `Node.js` `Express.js` `MongoDB` `Mongoose` `Tailwind CSS` `JWT` `Razorpay`
+**Project focus:** Authentication • Role-based access • Hostel operations • Leave and gate-pass workflows • Real-time notifications
 
 ---
 
@@ -289,7 +301,9 @@ A **MERN-stack full-stack application** designed to digitize hostel operations t
 
 <div align="center">
 
-[![Xavier's GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=xavierkingsleen-11&theme=github-compact)](https://github.com/xavierkingsleen-11)
+<a href="https://github.com/xavierkingsleen-11">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=xavierkingsleen-11&theme=github-compact&hide_border=true&area=true" alt="Xavier's GitHub Activity Graph">
+</a>
 
 </div>
 
@@ -299,9 +313,9 @@ A **MERN-stack full-stack application** designed to digitize hostel operations t
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=xavierkingsleen-11&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github" alt="GitHub Stats">
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=xavierkingsleen-11&show_icons=true&hide_border=true&include_all_commits=true&rank_icon=github&theme=transparent" alt="GitHub Stats">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=xavierkingsleen-11&layout=compact&hide_border=true&langs_count=8" alt="Top Languages">
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=xavierkingsleen-11&layout=compact&hide_border=true&langs_count=8&theme=transparent" alt="Top Languages">
 
 </div>
 
@@ -311,7 +325,7 @@ A **MERN-stack full-stack application** designed to digitize hostel operations t
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=xavierkingsleen-11&theme=flat&no-frame=true&no-bg=true&margin-w=8&row=1" alt="GitHub Profile Trophies">
+<img src="https://github-profile-trophy.vercel.app/?username=xavierkingsleen-11&theme=flat&no-frame=true&no-bg=true&margin-w=6&margin-h=6&column=4" alt="GitHub Profile Trophies">
 
 </div>
 
@@ -321,7 +335,7 @@ A **MERN-stack full-stack application** designed to digitize hostel operations t
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=xavierkingsleen-11&hide_border=true" alt="GitHub Contribution Streak">
+<img src="https://streak-stats.demolab.com?user=xavierkingsleen-11&hide_border=true&theme=transparent" alt="GitHub Contribution Streak">
 
 </div>
 
@@ -376,19 +390,16 @@ My long-term direction is to combine **AWS cloud infrastructure + security opera
 <div align="center">
 
 <a href="https://xavier11sr-myportfolio.netlify.app">
-  <img src="https://img.shields.io/badge/🌐%20Portfolio-Visit-0A66C2?style=for-the-badge" alt="Portfolio">
+  <img src="https://img.shields.io/badge/Portfolio-Visit%20Website-0A66C2?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0A66C2" alt="Visit Portfolio">
 </a>
-
 <a href="https://linkedin.com/in/xavierkingsleen01">
-  <img src="https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2" alt="Connect on LinkedIn">
 </a>
-
 <a href="https://github.com/xavierkingsleen-11">
-  <img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+  <img src="https://img.shields.io/badge/GitHub-Profile-24292F?style=for-the-badge&logo=github&logoColor=white&labelColor=24292F" alt="GitHub Profile">
 </a>
-
 <a href="mailto:xavierkingsleen@gmail.com">
-  <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+  <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=EA4335" alt="Email Xavier">
 </a>
 
 </div>
