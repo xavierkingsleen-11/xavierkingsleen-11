@@ -1,6 +1,6 @@
 <div align="center">
 
-# Xavier Kingsleen A.
+# Xavier Kingsleen A
 
 ### AWS Cloud Engineer • Cloud Support Engineer • Cloud Operations Engineer • SOC Analyst L1
 
@@ -26,7 +26,7 @@ Building practical experience across **AWS Cloud, Cloud Operations, Cloud Securi
 
 ## 👋 About Me
 
-I'm **Xavier Kingsleen A.**, a BCA graduate focused on building practical skills in **AWS Cloud Engineering, Cloud Operations, Cloud Security, SOC Operations, and Networking**.
+I'm **Xavier Kingsleen A**, a BCA graduate focused on building practical skills in **AWS Cloud Engineering, Cloud Operations, Cloud Security, SOC Operations, and Networking**.
 
 My approach is hands-on: I build, configure, troubleshoot, test, investigate, and document cloud and security environments rather than only listing technologies.
 
