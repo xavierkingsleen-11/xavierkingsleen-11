@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 360" role="img" aria-labelledby="title desc">
+<title id="title">SOC Security Operations</title>
+<desc id="desc">A dark security operations dashboard with telemetry, alerts and a terminal prompt.</desc>
+<rect width="1400" height="360" rx="18" fill="#0b1017"/>
+<rect x="28" y="28" width="1344" height="304" rx="14" fill="#0f1720" stroke="#1f2937"/>
+<circle cx="58" cy="58" r="7" fill="#ef4444"/><circle cx="82" cy="58" r="7" fill="#f59e0b"/><circle cx="106" cy="58" r="7" fill="#22c55e"/>
+<text x="140" y="66" fill="#94a3b8" font-family="monospace" font-size="18">SOC // SECURITY OPERATIONS CENTER</text>
+<text x="70" y="130" fill="#00ff9c" font-family="monospace" font-size="32">$ detect --source=windows --siem=splunk</text>
+<text x="70" y="175" fill="#cbd5e1" font-family="monospace" font-size="21">[OK] authentication telemetry ............ 4624 / 4625</text>
+<text x="70" y="212" fill="#cbd5e1" font-family="monospace" font-size="21">[OK] process telemetry ................... 4688 / Sysmon</text>
+<text x="70" y="249" fill="#fbbf24" font-family="monospace" font-size="21">[ALERT] suspicious PowerShell execution detected</text>
+<text x="70" y="286" fill="#00ff9c" font-family="monospace" font-size="21">→ triage → correlate → investigate → document</text>
+<path d="M1110 125h210M1110 155h160M1110 185h190M1110 215h135M1110 245h205" stroke="#334155" stroke-width="8" stroke-linecap="round"/>
+<circle cx="1080" cy="125" r="7" fill="#00ff9c"/><circle cx="1080" cy="155" r="7" fill="#00ff9c"/><circle cx="1080" cy="185" r="7" fill="#fbbf24"/><circle cx="1080" cy="215" r="7" fill="#60a5fa"/><circle cx="1080" cy="245" r="7" fill="#00ff9c"/>
+</svg>
