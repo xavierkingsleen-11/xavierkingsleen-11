@@ -1,84 +1,267 @@
+<!-- ========================================================= -->
+<!-- Xavier Kingsleen | SOC Analyst GitHub Profile             -->
+<!-- ========================================================= -->
+
 <div align="center">
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:39FF14&height=220&section=header&text=XAVIER%20KINGSLEEN&fontSize=48&fontColor=39FF14&animation=fadeIn&fontAlignY=32&desc=Breaking%20into%20Blue%20Team%20%7C%20SOC%20Analyst%20L1&descAlignY=52&descColor=00FF41&fontFamily=monospace)
+<img src="assets/soc-banner.svg" width="100%" alt="SOC Analyst cyber security banner" />
 
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=26&duration=2500&pause=900&color=39FF14&background=00000000&center=true&vCenter=true&width=650&lines=SOC+ANALYST+L1;SECURITY+OPERATIONS+ANALYST;THREAT+HUNTER+%7C+LOG+ANALYST;SPLUNK+%7C+SIEM+%7C+MITRE+ATT%26CK" alt="Typing SVG" />
-</a>
+<table>
+<tr>
+<td width="28%" align="center">
+<img src="assets/pixel-avatar.png" width="220" alt="Xavier Kingsleen pixel avatar" />
+</td>
+<td width="72%" align="left">
+
+# Hello, I'm Xavier Kingsleen
+
+## `SOC ANALYST`
+
+> **Monitor · Detect · Investigate · Respond**
+
+**Security Monitoring** · **Threat Detection** · **Log Analysis** · **Incident Response**
+
+BCA graduate focused on hands-on SOC operations, SIEM investigation, Windows telemetry, threat detection and practical security workflows.
+
+**Current target:** Entry-level **SOC Analyst L1** opportunities.
+
+</td>
+</tr>
+</table>
+
+<a href="https://github.com/xavierkingsleen-11"><img src="assets/github.svg" height="34" alt="GitHub" /></a>
+&nbsp;
+<a href="https://www.linkedin.com/in/xavierkingsleen01"><img src="assets/linkedin.svg" height="34" alt="LinkedIn" /></a>
+&nbsp;
+<a href="https://xavier11sr-myportfolio.netlify.app/"><img src="assets/portfolio.svg" height="34" alt="Portfolio" /></a>
 
 </div>
 
-<br>
+---
 
-<table align="center">
+## `>_` SOC PROFILE
+
+| Focus Area | What I Work With |
+|---|---|
+| 🛡️ **Security Operations** | Alert investigation, log analysis, authentication monitoring, process monitoring, incident-response fundamentals |
+| 🔎 **Threat Detection** | MITRE ATT&CK, IOC analysis, suspicious PowerShell activity, phishing investigation, insider-threat detection |
+| 📊 **SIEM** | Splunk Cloud, SPL searches, dashboards, correlation logic and security alerting |
+| 🪟 **Windows Security** | Windows Event Logs, Event IDs, PowerShell, Sysmon, authentication and process telemetry |
+| ☁️ **Cloud Security** | AWS IAM, CloudTrail, GuardDuty, KMS, CloudWatch, EventBridge, Lambda and Systems Manager |
+
+---
+
+## `01` SKILLS & TECHNOLOGY STACK
+
+<table>
 <tr>
-<td width="55%" valign="top">
+<td width="20%" valign="top">
 
-```bash
-xavier@soc-terminal:~$ whoami
-> Xavier Kingsleen A
+### 🛡️ SOC & SIEM
+- Splunk Cloud
+- SPL
+- Security Monitoring
+- Alert Investigation
+- Log Analysis
+- Incident Response
 
-xavier@soc-terminal:~$ cat role.txt
-> SOC Analyst L1 / Security Operations Analyst
-> Tamil Nadu, India
+</td>
+<td width="20%" valign="top">
 
-xavier@soc-terminal:~$ ./status.sh
-[✔] Monitoring endpoints .......... ACTIVE
-[✔] Log correlation (SPL) ......... RUNNING
-[✔] MITRE ATT&CK mapping .......... ENABLED
-[✔] Incident response workflow .... LOADED
-[!] Coffee level .................. CRITICAL
+### 🪟 Windows Security
+- Windows Event Logs
+- Event IDs
+- PowerShell
+- Sysmon
+- Authentication Monitoring
+- Process Monitoring
 
-xavier@soc-terminal:~$ cat mission.txt
-> BCA grad hunting real threats in log data.
-> Splunk Cloud, Windows Event Logs, Sysmon,
-> PowerShell telemetry & IOC analysis are my
-> daily drivers. Currently seeking an
-> entry-level SOC Analyst / Security
-> Operations role.
+</td>
+<td width="20%" valign="top">
+
+### 🔎 Detection
+- MITRE ATT&CK
+- IOC Analysis
+- Threat Detection
+- Suspicious Process Analysis
+- Phishing Analysis
+- Risk-based Investigation
+
+</td>
+<td width="20%" valign="top">
+
+### 🌐 Networking
+- TCP/IP
+- IPv4 / IPv6
+- DNS / DHCP
+- ARP
+- NAT / VLAN
+- Subnetting / Routing
+
+</td>
+<td width="20%" valign="top">
+
+### ☁️ AWS Security
+- IAM
+- CloudTrail
+- GuardDuty
+- KMS
+- CloudWatch
+- EventBridge / Lambda
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+<img src="assets/splunk.svg" height="42" alt="Splunk" />
+&nbsp;&nbsp;
+<img src="assets/sysmon.svg" height="42" alt="Sysmon" />
+&nbsp;&nbsp;
+<img src="assets/powershell.svg" height="42" alt="PowerShell" />
+&nbsp;&nbsp;
+<img src="assets/mitre.svg" height="42" alt="MITRE ATT&CK" />
+&nbsp;&nbsp;
+<img src="assets/virustotal.svg" height="42" alt="VirusTotal" />
+&nbsp;&nbsp;
+<img src="assets/wireshark.svg" height="42" alt="Wireshark" />
+&nbsp;&nbsp;
+<img src="assets/linux.svg" height="42" alt="Linux" />
+&nbsp;&nbsp;
+<img src="assets/git.svg" height="42" alt="Git" />
+</div>
+
+---
+
+## `02` FEATURED SOC PROJECTS
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### 🔍 Security Monitoring & Log Analysis Lab
+
+Centralized Windows security telemetry in Splunk Cloud and built SOC-style detections around authentication, process and PowerShell activity.
+
+**Stack:** `Splunk Cloud` `SPL` `Windows Event Logs` `PowerShell` `MITRE ATT&CK`
+
+</td>
+<td width="33%" valign="top">
+
+### 🛡️ Insider Threat Detection Project
+
+Designed a multi-detection monitoring workflow covering unusual logins, PowerShell activity, sensitive file access, USB usage and outbound connections.
+
+**Stack:** `Splunk Cloud` `Sysmon` `PowerShell` `Risk Scoring`
+
+</td>
+<td width="33%" valign="top">
+
+### ✉️ Phishing Email Investigation
+
+Investigated email headers, authentication results and indicators, validated IOCs and correlated investigation telemetry in Splunk.
+
+**Stack:** `Thunderbird` `SPF/DKIM/DMARC` `VirusTotal` `Splunk Cloud` `SPL`
+
+</td>
+</tr>
+</table>
+
+### ☁️ Supporting Cloud Security Work
+
+My broader portfolio also includes AWS infrastructure, cloud monitoring and automated response workflows using **EC2, VPC, IAM, S3, CloudWatch, EventBridge, Lambda, Systems Manager and RDS**.
+
+---
+
+## `03` SOC INVESTIGATION FLOW
+
+<div align="center">
+<img src="assets/soc-flow.svg" width="92%" alt="SOC monitoring and investigation flow" />
+</div>
+
+---
+
+## `04` GITHUB ACTIVITY
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=xavierkingsleen-11&show_icons=true&hide_border=true&theme=tokyonight&rank_icon=github" height="165" alt="GitHub statistics" />
+&nbsp;
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=xavierkingsleen-11&layout=compact&hide_border=true&theme=tokyonight&langs_count=8" height="165" alt="Most used languages" />
+
+<br />
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=xavierkingsleen-11&theme=tokyo-night&hide_border=true&area=true" width="96%" alt="GitHub contribution activity graph" />
+
+</div>
+
+---
+
+## `05` CONTRIBUTION SNAKE
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/xavierkingsleen-11/xavierkingsleen-11/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/xavierkingsleen-11/xavierkingsleen-11/output/github-snake.svg" />
+  <img src="assets/snake-preview.svg" width="96%" alt="GitHub contribution snake" />
+</picture>
+
+</div>
+
+---
+
+## `06` EDUCATION & PROFESSIONAL DEVELOPMENT
+
+**Bachelor of Computer Applications (BCA)**  
+Sadakathullah Appa College, Tirunelveli · `2023 – 2026`
+
+**Higher Secondary Education (12th)**  
+TNDTA RMP Pulamadan Chettiar National Higher Secondary School, Sathankulam · `2022 – 2023`
+
+Professional development includes **Python for Data Science, AWS Solutions Architecture, Data Science, Full Stack Development and HTML** programs listed in the profile repository's `certificates/` folder.
+
+---
+
+## `07` CURRENT FOCUS
+
+```text
+[ NETWORKING ]
+       ↓
+[ LINUX + WINDOWS ]
+       ↓
+[ CYBERSECURITY FUNDAMENTALS ]
+       ↓
+[ SOC OPERATIONS + SIEM ]
+       ↓
+[ THREAT DETECTION + INCIDENT RESPONSE ]
+       ↓
+[ CLOUD SECURITY ]
 ```
 
-</td>
-<td width="45%" align="center">
+- Building stronger SOC detection and investigation skills
+- Practising Windows telemetry and SIEM analysis
+- Improving threat-hunting and IOC analysis workflows
+- Strengthening AWS security foundations
+- Preparing for entry-level SOC Analyst L1 roles
 
-<img src="./assets/profile.jpg" width="260" style="border-radius:50%;border:3px solid #39FF14;box-shadow:0 0 25px #39FF14;" />
+---
 
-<br><br>
-
-<img src="https://img.shields.io/badge/STATUS-MONITORING%20THE%20NETWORK-000000?style=for-the-badge&labelColor=000000&color=39FF14" />
-
-</td>
-</tr>
-</table>
+## `08` LET'S CONNECT
 
 <div align="center">
 
-## 🛰️ Tech Arsenal
+**Building · Monitoring · Investigating · Improving**
 
-**SOC & SIEM**
-<br>
-![Splunk](https://img.shields.io/badge/Splunk-000000?style=for-the-badge&logo=splunk&logoColor=39FF14)
-![SPL](https://img.shields.io/badge/SPL-000000?style=for-the-badge&logo=splunk&logoColor=39FF14)
-![MITRE ATT&CK](https://img.shields.io/badge/MITRE%20ATT%26CK-000000?style=for-the-badge&logo=target&logoColor=39FF14)
+<a href="https://github.com/xavierkingsleen-11"><img src="assets/github.svg" height="34" alt="GitHub" /></a>
+&nbsp;
+<a href="https://www.linkedin.com/in/xavierkingsleen01"><img src="assets/linkedin.svg" height="34" alt="LinkedIn" /></a>
+&nbsp;
+<a href="https://xavier11sr-myportfolio.netlify.app/"><img src="assets/portfolio.svg" height="34" alt="Portfolio" /></a>
 
-**Windows Security**
-<br>
-![Windows Event Logs](https://img.shields.io/badge/Windows%20Event%20Logs-000000?style=for-the-badge&logo=windows&logoColor=39FF14)
-![PowerShell](https://img.shields.io/badge/PowerShell-000000?style=for-the-badge&logo=powershell&logoColor=39FF14)
-![Sysmon](https://img.shields.io/badge/Sysmon-000000?style=for-the-badge&logo=windowsterminal&logoColor=39FF14)
+<br /><br />
 
-**Networking**
-<br>
-![TCP/IP](https://img.shields.io/badge/TCP%2FIP-000000?style=for-the-badge&logo=cisco&logoColor=39FF14)
-![DNS](https://img.shields.io/badge/DNS-000000?style=for-the-badge&logo=internetcomputer&logoColor=39FF14)
-![Subnetting](https://img.shields.io/badge/Subnetting-000000?style=for-the-badge&logo=cisco&logoColor=39FF14)
-
-**Tools & OS**
-<br>
-![Linux](https://img.shields.io/badge/Linux-000000?style=for-the-badge&logo=linux&logoColor=39FF14)
-![VirusTotal](https://img.shields.io/badge/VirusTotal-000000?style=for-the-badge&logo=virustotal&logoColor=39FF14)
-![Git](https://img.shields.io/badge/Git-000000?style=for-the-badge&logo=git&logoColor=39FF14)
-![GitHub](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=39FF14)
+> **Better Security. Safer Tomorrows.**
 
 </div>
 
@@ -86,87 +269,6 @@ xavier@soc-terminal:~$ cat mission.txt
 
 <div align="center">
 
-## 🔍 Featured Ops
-
-</div>
-
-<table align="center">
-<tr>
-<td width="33%">
-
-**🛡️ Security Monitoring Lab**
-<br>
-Centralised Windows Security telemetry (4624/4625/4688) in Splunk Cloud, wrote SPL detections for auth, process & PowerShell activity, built real-time dashboards + alerts.
-
-</td>
-<td width="33%">
-
-**🕵️ Insider Threat Detection**
-<br>
-7-detection insider-threat framework (USB, logins, PowerShell, file access, compression, outbound conns) with a LOW→CRITICAL risk-scoring engine + live dashboard.
-
-</td>
-<td width="33%">
-
-**🎣 Phishing Investigation**
-<br>
-Full header forensics (SPF/DKIM/DMARC), IOC extraction & VirusTotal validation, ingested into Splunk with SPL correlation searches.
-
-</td>
-</tr>
-</table>
-
-<div align="center">
-
-🔗 **[View full portfolio →](https://xavier11sr-myportfolio.netlify.app/)**
-
-</div>
-
----
-
-<div align="center">
-
-## 📡 Live Recon — GitHub Stats
-
-<img src="https://github-readme-stats.vercel.app/api?username=xavierkingsleen-11&show_icons=true&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=39FF14&icon_color=39FF14&text_color=c9d1d9&ring_color=39FF14" width="49%" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=xavierkingsleen-11&theme=dark&hide_border=true&background=0D1117&ring=39FF14&fire=39FF14&currStreakLabel=39FF14&sideLabels=c9d1d9&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=c9d1d9" width="49%" />
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=xavierkingsleen-11&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=39FF14&text_color=c9d1d9" width="49%" />
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=xavierkingsleen-11&theme=react-dark&bg_color=0D1117&color=39FF14&line=39FF14&point=ffffff&hide_border=true" width="49%" />
-
-</div>
-
----
-
-<div align="center">
-
-## 🐍 Contribution Feed
-
-<img src="./assets/snake.svg" width="90%" alt="snake animation — appears after the GitHub Action below runs" />
-
-*(one-time setup needed — see notes below)*
-
-</div>
-
----
-
-<div align="center">
-
-## ⚡ Connect With Me
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=firefox&logoColor=39FF14)](https://xavier11sr-myportfolio.netlify.app/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=39FF14)](https://linkedin.com/in/xavierkingsleen01/)
-[![Gmail](https://img.shields.io/badge/Gmail-000000?style=for-the-badge&logo=gmail&logoColor=39FF14)](mailto:xavier.clousec@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=39FF14)](https://github.com/xavierkingsleen-11)
-
-<img src="https://komarev.com/ghpvc/?username=xavierkingsleen-11&color=39ff14&style=for-the-badge&label=PROFILE+VIEWS" />
-
-</div>
-
-<div align="center">
-
-> *"Every log has a story. Every alert has a truth."* — logging off, staying vigilant.
-
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:39FF14,100:000000&height=100&section=footer)
+`SOC ANALYST` · `SECURITY MONITORING` · `THREAT DETECTION` · `LOG ANALYSIS`
 
 </div>
