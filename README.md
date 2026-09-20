@@ -1,403 +1,84 @@
 <div align="center">
 
-# Xavier Kingsleen A
+![Header](https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:39FF14&height=220&section=header&text=XAVIER%20KINGSLEEN&fontSize=48&fontColor=39FF14&animation=fadeIn&fontAlignY=32&desc=Breaking%20into%20Blue%20Team%20%7C%20SOC%20Analyst%20L1&descAlignY=52&descColor=00FF41&fontFamily=monospace)
 
-### AWS Cloud Engineer • Cloud Support Engineer • Cloud Operations Engineer • SOC Analyst L1
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=26&duration=2500&pause=900&color=39FF14&background=00000000&center=true&vCenter=true&width=650&lines=SOC+ANALYST+L1;SECURITY+OPERATIONS+ANALYST;THREAT+HUNTER+%7C+LOG+ANALYST;SPLUNK+%7C+SIEM+%7C+MITRE+ATT%26CK" alt="Typing SVG" />
+</a>
 
-Building practical experience across **AWS Cloud, Cloud Operations, Cloud Security, SOC, and Networking**.
-
-<a href="https://xavier11sr-myportfolio.netlify.app">
-  <img src="https://img.shields.io/badge/Portfolio-Visit%20Website-0A66C2?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0A66C2" alt="Visit Portfolio">
-</a>
-<a href="https://linkedin.com/in/xavierkingsleen01">
-  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2" alt="Connect on LinkedIn">
-</a>
-<a href="https://github.com/xavierkingsleen-11">
-  <img src="https://img.shields.io/badge/GitHub-Profile-24292F?style=for-the-badge&logo=github&logoColor=white&labelColor=24292F" alt="GitHub Profile">
-</a>
+</div>
 
 <br>
 
-<img src="https://komarev.com/ghpvc/?username=xavierkingsleen-11&style=flat-square&color=0A66C2" alt="Profile views">
+<table align="center">
+<tr>
+<td width="55%" valign="top">
 
-</div>
+```bash
+xavier@soc-terminal:~$ whoami
+> Xavier Kingsleen A
 
----
+xavier@soc-terminal:~$ cat role.txt
+> SOC Analyst L1 / Security Operations Analyst
+> Tamil Nadu, India
 
-## 👋 About Me
+xavier@soc-terminal:~$ ./status.sh
+[✔] Monitoring endpoints .......... ACTIVE
+[✔] Log correlation (SPL) ......... RUNNING
+[✔] MITRE ATT&CK mapping .......... ENABLED
+[✔] Incident response workflow .... LOADED
+[!] Coffee level .................. CRITICAL
 
-I'm **Xavier Kingsleen A**, a BCA graduate focused on building practical skills in **AWS Cloud Engineering, Cloud Operations, Cloud Security, SOC Operations, and Networking**.
+xavier@soc-terminal:~$ cat mission.txt
+> BCA grad hunting real threats in log data.
+> Splunk Cloud, Windows Event Logs, Sysmon,
+> PowerShell telemetry & IOC analysis are my
+> daily drivers. Currently seeking an
+> entry-level SOC Analyst / Security
+> Operations role.
+```
 
-My approach is hands-on: I build, configure, troubleshoot, test, investigate, and document cloud and security environments rather than only listing technologies.
+</td>
+<td width="45%" align="center">
 
-I'm currently targeting entry-level opportunities as an **AWS Cloud Engineer, Cloud Support Engineer, Cloud Operations Engineer, or SOC Analyst L1**, with a long-term direction toward **Cloud Security**.
-
-> **Primary focus:** AWS Cloud  
-> **Security strength:** SOC Operations • SIEM • Log Analysis • Threat Detection  
-> **Supporting foundation:** Networking • Linux • Windows
-
----
-
-## 🧰 Core Technology Stack
-
-<div align="center">
-
-<!-- Core platforms and skills -->
-<img src="https://skillicons.dev/icons?i=aws,linux,windows,powershell,git,github,html,css&perline=8" alt="AWS, Linux, Windows, PowerShell, Git, GitHub, HTML, CSS" />
+<img src="./assets/profile.jpg" width="260" style="border-radius:50%;border:3px solid #39FF14;box-shadow:0 0 25px #39FF14;" />
 
 <br><br>
 
-<!-- Networking and security tools -->
-<a href="https://www.cisco.com/"><img height="48" width="48" src="https://cdn.simpleicons.org/cisco" alt="Cisco" title="Cisco Networking" /></a>
-<a href="https://www.kali.org/"><img height="48" width="48" src="https://cdn.simpleicons.org/kalilinux" alt="Kali Linux" title="Kali Linux" /></a>
-<a href="https://www.splunk.com/"><img height="48" width="48" src="https://cdn.simpleicons.org/splunk" alt="Splunk" title="Splunk" /></a>
-<a href="https://www.wireshark.org/"><img height="48" width="48" src="https://cdn.simpleicons.org/wireshark" alt="Wireshark" title="Wireshark" /></a>
-
-</div>
-
-### ☁️ AWS Cloud & Infrastructure
-
-`AWS` `IAM` `EC2` `S3` `VPC` `Security Groups` `Application Load Balancer` `Auto Scaling` `RDS` `Aurora` `CloudWatch` `Lambda` `EventBridge` `Systems Manager` `Route 53` `ACM`
-
-### 🔐 Cloud Security
-
-`AWS GuardDuty` `AWS CloudTrail` `IAM Access Control` `AWS KMS` `Least Privilege` `Threat Detection`
-
-### 🛡️ SOC & Cybersecurity
-
-`SOC Operations` `Security Monitoring` `Log Analysis` `SIEM` `Windows Event Logs` `MITRE ATT&CK` `Alert Investigation` `Insider Threat Detection` `Incident Response Fundamentals`
-
-### 🔎 Security & Investigation Tools
-
-`Splunk Cloud` `Wazuh` `Sysmon` `Windows Event Viewer` `PowerShell` `VirusTotal` `Thunderbird`
-
-### 🌐 Networking & Systems
-
-`TCP/IP` `IPv4/IPv6` `DNS` `DHCP` `ARP` `NAT` `VLAN` `Subnetting` `Routing` `Linux CLI` `Windows`
-
-### 💻 Web Fundamentals & Supporting Tools
-
-`HTML` `CSS` `Git` `GitHub`
-
----
-
-# 🚀 Hands-on Projects
-
-The projects below demonstrate practical work across **AWS infrastructure, serverless architecture, cloud operations, SIEM, incident response, insider-threat detection, secure access control, and phishing investigation**.
-
----
-
-## 01 • Serverless Image Processing & Metadata System
-
-A serverless AWS workflow for image ingestion, processing, and metadata handling.
-
-**Built with:** `S3` `Lambda` `IAM` `DynamoDB` `CloudWatch` `Python` `Pillow`
-
-**Highlights**
-- Designed an event-driven image processing workflow.
-- Used S3 for source image ingestion and processed output.
-- Used Lambda for serverless image processing.
-- Stored image metadata in DynamoDB.
-- Applied IAM permissions for controlled access.
-- Used CloudWatch for monitoring and troubleshooting.
-- Resolved a DynamoDB key mismatch during testing by aligning the application field with the table partition key.
-
----
-
-## 02 • Highly Available Website with Auto Scaling
-
-A highly available web architecture designed across multiple Availability Zones.
-
-**Built with:** `EC2` `VPC` `Security Groups` `ALB` `Auto Scaling` `CloudWatch`
-
-**Highlights**
-- Designed EC2 infrastructure across multiple Availability Zones.
-- Configured VPC networking and Security Groups.
-- Used an Application Load Balancer for traffic distribution.
-- Configured Auto Scaling for capacity management.
-- Used CloudWatch for application health monitoring.
-
----
-
-## 03 • Security Monitoring & Log Analysis Lab
-
-A SIEM-focused security monitoring project using Windows telemetry and Splunk Cloud.
-
-**Built with:** `Splunk Cloud` `SPL` `Windows Event Logs` `PowerShell` `MITRE ATT&CK`
-
-**Highlights**
-- Centralized Windows Security telemetry including **4624, 4625 and 4688** events.
-- Built SPL detections for authentication, process, and PowerShell activity.
-- Investigated encoded PowerShell and sensitive file-access alerts.
-- Correlated findings into SOC-style assessments.
-- Built security dashboards and Splunk email alerting.
-
----
-
-## 04 • Cloud Monitoring & Automated Incident Response
-
-An automated AWS remediation pipeline for detecting and recovering an HTTPD service failure.
-
-### Architecture
-
-`EC2 → CloudWatch → EventBridge → Lambda → Systems Manager → HTTPD Recovery`
-
-**Built with:** `EC2` `CloudWatch` `EventBridge` `Lambda` `Systems Manager`
-
-**Highlights**
-- Monitored the HTTPD process on an EC2 Linux instance.
-- Triggered CloudWatch alarms when the service entered an abnormal state.
-- Routed the state change through EventBridge.
-- Used Lambda to invoke Systems Manager Run Command.
-- Restarted HTTPD automatically.
-- Verified the complete end-to-end recovery workflow.
-
----
-
-## 05 • AWS Three-Tier Architecture
-
-A production-style architecture separating web, application, and database layers.
-
-### Architecture
-
-`Users → Route 53 → ACM/TLS → ALB → Web Tier → ALB → App Tier → RDS MySQL`
-
-**Built with:** `VPC` `Route 53` `ACM` `ALB` `Auto Scaling` `RDS MySQL`
-
-**Highlights**
-- Designed separate web, application, and database tiers.
-- Used a multi-AZ VPC.
-- Configured Route 53 and ACM for DNS and TLS.
-- Used frontend and backend Application Load Balancers.
-- Configured Auto Scaling Groups.
-- Isolated RDS MySQL in private subnets.
-
----
-
-## 06 • AWS WordPress CMS Deployment
-
-A WordPress CMS deployment using EC2, RDS MySQL, IAM, and S3.
-
-**Built with:** `EC2` `RDS MySQL` `S3` `IAM` `WordPress` `Amazon Linux 2023`
-
-**Highlights**
-- Deployed WordPress on Amazon EC2 using Amazon Linux 2023.
-- Used Amazon RDS MySQL for application data.
-- Attached an IAM role to EC2 for S3 permissions.
-- Integrated WP Offload Media for S3-based media storage.
-- Verified the WordPress → S3 media workflow.
-
----
-
-## 07 • Insider Threat Detection Project
-
-A Splunk Cloud security monitoring project focused on detecting suspicious insider activity.
-
-**Built with:** `Splunk Cloud` `Sysmon` `PowerShell` `Risk Scoring`
-
-**Highlights**
-- Built a **seven-detection insider-threat framework**.
-- Covered USB usage, logins, PowerShell, sensitive file access, compression, and outbound connections.
-- Designed a risk-scoring engine combining detection severity and weights.
-- Normalized risk into **LOW → CRITICAL** thresholds.
-- Built an **INSIDER-THREAT-2** dashboard with risk score, severity breakdown, and recent alerts.
-
----
-
-## 08 • AWS Secure File-Sharing & Access Control
-
-A serverless file-access control system focused on authorization, encryption, auditing, and alerting.
-
-**Built with:** `API Gateway` `Lambda` `DynamoDB` `S3` `KMS` `CloudTrail` `EventBridge` `SNS`
-
-**Highlights**
-- Built prefix-based authorization using API Gateway, Lambda, and DynamoDB.
-- Applied least-privilege IAM permissions.
-- Encrypted application files and audit logs with customer-managed KMS keys.
-- Configured CloudTrail for API auditing.
-- Used EventBridge and SNS for security alerting.
-- Tested both authorized and unauthorized access paths.
-
----
-
-## 09 • Phishing Email Investigation
-
-A SOC-style phishing investigation workflow using email header analysis, IOC validation, and SIEM correlation.
-
-**Built with:** `Thunderbird` `SPF/DKIM/DMARC` `VirusTotal` `Splunk Cloud` `SPL`
-
-**Highlights**
-- Investigated a simulated phishing email.
-- Analyzed email headers for SPF, DKIM, and DMARC failures.
-- Investigated From/Reply-To mismatches.
-- Extracted and validated IOCs including domains, URLs, and IP addresses.
-- Used VirusTotal for reputation checks.
-- Ingested email telemetry into Splunk Cloud.
-- Built SPL correlation searches.
-- Documented the investigation as a SOC response workflow.
-
----
-
-# 🎓 Academic Project
-
-## Digital Hostel Issue, Leave & Management System
-
-A full-stack academic application designed to digitize hostel operations through separate Student and Admin portals.
-
-### Key Features
-
-- JWT-based authentication
-- Role-based access control
-- Student registration with admin approval
-- Complaint management with image evidence
-- Leave request and approval workflow
-- Gate-pass management
-- GPS-based movement/attendance validation
-- Hostel fee management with Razorpay
-- Room allocation
-- Hostel announcements
-- Mess menu
-- Emergency contact information
-- Real-time notifications
-
-**Project focus:** Authentication • Role-based access • Hostel operations • Leave and gate-pass workflows • Real-time notifications
-
----
-
-# 🏆 Certifications & Professional Development
-
-> Certificate links below are **repository-relative links**. Upload the corresponding original PDF files into a `certificates/` folder in the profile repository using the filenames shown below. No fake external certificate URLs are used.
-
-| Certification / Program | Issuer | Certificate |
-|---|---|---|
-| Python for Data Science | NPTEL / IIT Madras | [View Certificate](./certificates/Python-for-Data-Science-NPTEL.pdf) |
-| AWS Solutions Architecture Job Simulation | Forage | [View Certificate](./certificates/AWS-Solutions-Architecture-Forage.pdf) |
-| Data Science Job Simulation | Forage | [View Certificate](./certificates/Data-Science-Forage.pdf) |
-| Entrepreneurship & Innovation: Web Development Job Simulation | Forage | [View Certificate](./certificates/Web-Development-Forage.pdf) |
-| 30 Days MasterClass in Full Stack Development | NoviTech R&D Private Limited | [View Certificate](./certificates/Full-Stack-Development-NoviTech.pdf) |
-| Introduction to HTML | SoloLearn | [View Certificate](./certificates/Introduction-to-HTML-SoloLearn.pdf) |
-| Building SAP e-Commerce Website — INFO TECHIES 2K25 Workshop | Sadakathullah Appa College | [View Certificate](./certificates/SAP-eCommerce-Workshop-Sadakathullah-Appa-College.pdf) |
-
----
-
-# 🎓 Education
-
-### Bachelor of Computer Applications — BCA
-**Sadakathullah Appa College, Tirunelveli**  
-`2023 – 2026`
-
-### Higher Secondary Education — 12th
-**TNDTA RMP Pulamadan Chettiar National Higher Secondary School, Sathankulam**  
-`2022 – 2023`
-
-> GPA/CGPA is intentionally not displayed because no verified GPA figure is being used in this profile.
-
----
-
-# 📊 GitHub Activity
+<img src="https://img.shields.io/badge/STATUS-MONITORING%20THE%20NETWORK-000000?style=for-the-badge&labelColor=000000&color=39FF14" />
+
+</td>
+</tr>
+</table>
 
 <div align="center">
 
-<a href="https://github.com/xavierkingsleen-11">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=xavierkingsleen-11&theme=github-compact&hide_border=true" alt="Xavier's GitHub Activity Graph">
-</a>
+## 🛰️ Tech Arsenal
 
-</div>
+**SOC & SIEM**
+<br>
+![Splunk](https://img.shields.io/badge/Splunk-000000?style=for-the-badge&logo=splunk&logoColor=39FF14)
+![SPL](https://img.shields.io/badge/SPL-000000?style=for-the-badge&logo=splunk&logoColor=39FF14)
+![MITRE ATT&CK](https://img.shields.io/badge/MITRE%20ATT%26CK-000000?style=for-the-badge&logo=target&logoColor=39FF14)
 
----
+**Windows Security**
+<br>
+![Windows Event Logs](https://img.shields.io/badge/Windows%20Event%20Logs-000000?style=for-the-badge&logo=windows&logoColor=39FF14)
+![PowerShell](https://img.shields.io/badge/PowerShell-000000?style=for-the-badge&logo=powershell&logoColor=39FF14)
+![Sysmon](https://img.shields.io/badge/Sysmon-000000?style=for-the-badge&logo=windowsterminal&logoColor=39FF14)
 
-# 📈 GitHub Analytics
+**Networking**
+<br>
+![TCP/IP](https://img.shields.io/badge/TCP%2FIP-000000?style=for-the-badge&logo=cisco&logoColor=39FF14)
+![DNS](https://img.shields.io/badge/DNS-000000?style=for-the-badge&logo=internetcomputer&logoColor=39FF14)
+![Subnetting](https://img.shields.io/badge/Subnetting-000000?style=for-the-badge&logo=cisco&logoColor=39FF14)
 
-<div align="center">
-
-<img height="170" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=xavierkingsleen-11&show_icons=true&hide_border=true&include_all_commits=true&rank_icon=github&theme=github_dark" alt="GitHub Stats">
-
-<img height="170" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=xavierkingsleen-11&layout=compact&hide_border=true&langs_count=8&theme=github_dark" alt="Top Languages">
-
-</div>
-
----
-
-# 🏅 GitHub Achievements
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=xavierkingsleen-11&theme=flat&no-frame=true&no-bg=true&margin-w=4&column=3" alt="GitHub Profile Trophies">
-
-</div>
-
----
-
-# 🔥 Contribution Streak
-
-<div align="center">
-
-<img src="https://streak-stats.demolab.com?user=xavierkingsleen-11&hide_border=true&theme=transparent" alt="GitHub Contribution Streak">
-
-</div>
-
----
-
-# 🎯 Career Direction
-
-```text
-Networking
-     ↓
-Linux & Windows
-     ↓
-Cybersecurity Fundamentals
-     ↓
-SOC Operations & SIEM
-     ↓
-AWS Cloud Engineering
-     ↓
-Cloud Security
-```
-
-### Target Roles
-
-`AWS Cloud Engineer` • `Cloud Support Engineer` • `Cloud Operations Engineer` • `SOC Analyst L1`
-
-My long-term direction is to combine **AWS cloud infrastructure + security operations** and grow toward **Cloud Security**.
-
----
-
-# 🧪 Current Learning & Practice
-
-- AWS infrastructure and architecture
-- IAM and least-privilege access
-- EC2, VPC, S3 and cloud networking
-- CloudWatch monitoring
-- AWS security services
-- Linux administration and CLI
-- Windows Event Logs
-- PowerShell for SOC investigation
-- Splunk and SIEM investigation
-- Wazuh
-- Sysmon
-- MITRE ATT&CK
-- Incident response fundamentals
-- Threat detection and log analysis
-- Networking fundamentals and troubleshooting
-
----
-
-# 📫 Connect With Me
-
-<div align="center">
-
-<a href="https://xavier11sr-myportfolio.netlify.app">
-  <img src="https://img.shields.io/badge/Portfolio-Visit%20Website-0A66C2?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0A66C2" alt="Visit Portfolio">
-</a>
-<a href="https://linkedin.com/in/xavierkingsleen01">
-  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2" alt="Connect on LinkedIn">
-</a>
-<a href="https://github.com/xavierkingsleen-11">
-  <img src="https://img.shields.io/badge/GitHub-Profile-24292F?style=for-the-badge&logo=github&logoColor=white&labelColor=24292F" alt="GitHub Profile">
-</a>
-<a href="mailto:xavierkingsleen@gmail.com">
-  <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=EA4335" alt="Email Xavier">
-</a>
+**Tools & OS**
+<br>
+![Linux](https://img.shields.io/badge/Linux-000000?style=for-the-badge&logo=linux&logoColor=39FF14)
+![VirusTotal](https://img.shields.io/badge/VirusTotal-000000?style=for-the-badge&logo=virustotal&logoColor=39FF14)
+![Git](https://img.shields.io/badge/Git-000000?style=for-the-badge&logo=git&logoColor=39FF14)
+![GitHub](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=39FF14)
 
 </div>
 
@@ -405,8 +86,87 @@ My long-term direction is to combine **AWS cloud infrastructure + security opera
 
 <div align="center">
 
-### Building. Troubleshooting. Investigating. Documenting.
+## 🔍 Featured Ops
 
-**Open to entry-level AWS Cloud, Cloud Operations, Cloud Support and SOC opportunities.**
+</div>
+
+<table align="center">
+<tr>
+<td width="33%">
+
+**🛡️ Security Monitoring Lab**
+<br>
+Centralised Windows Security telemetry (4624/4625/4688) in Splunk Cloud, wrote SPL detections for auth, process & PowerShell activity, built real-time dashboards + alerts.
+
+</td>
+<td width="33%">
+
+**🕵️ Insider Threat Detection**
+<br>
+7-detection insider-threat framework (USB, logins, PowerShell, file access, compression, outbound conns) with a LOW→CRITICAL risk-scoring engine + live dashboard.
+
+</td>
+<td width="33%">
+
+**🎣 Phishing Investigation**
+<br>
+Full header forensics (SPF/DKIM/DMARC), IOC extraction & VirusTotal validation, ingested into Splunk with SPL correlation searches.
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+🔗 **[View full portfolio →](https://xavier11sr-myportfolio.netlify.app/)**
+
+</div>
+
+---
+
+<div align="center">
+
+## 📡 Live Recon — GitHub Stats
+
+<img src="https://github-readme-stats.vercel.app/api?username=xavierkingsleen-11&show_icons=true&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=39FF14&icon_color=39FF14&text_color=c9d1d9&ring_color=39FF14" width="49%" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=xavierkingsleen-11&theme=dark&hide_border=true&background=0D1117&ring=39FF14&fire=39FF14&currStreakLabel=39FF14&sideLabels=c9d1d9&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=c9d1d9" width="49%" />
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=xavierkingsleen-11&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=39FF14&text_color=c9d1d9" width="49%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=xavierkingsleen-11&theme=react-dark&bg_color=0D1117&color=39FF14&line=39FF14&point=ffffff&hide_border=true" width="49%" />
+
+</div>
+
+---
+
+<div align="center">
+
+## 🐍 Contribution Feed
+
+<img src="./assets/snake.svg" width="90%" alt="snake animation — appears after the GitHub Action below runs" />
+
+*(one-time setup needed — see notes below)*
+
+</div>
+
+---
+
+<div align="center">
+
+## ⚡ Connect With Me
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=firefox&logoColor=39FF14)](https://xavier11sr-myportfolio.netlify.app/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=39FF14)](https://linkedin.com/in/xavierkingsleen01/)
+[![Gmail](https://img.shields.io/badge/Gmail-000000?style=for-the-badge&logo=gmail&logoColor=39FF14)](mailto:xavier.clousec@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=39FF14)](https://github.com/xavierkingsleen-11)
+
+<img src="https://komarev.com/ghpvc/?username=xavierkingsleen-11&color=39ff14&style=for-the-badge&label=PROFILE+VIEWS" />
+
+</div>
+
+<div align="center">
+
+> *"Every log has a story. Every alert has a truth."* — logging off, staying vigilant.
+
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:39FF14,100:000000&height=100&section=footer)
 
 </div>
