@@ -1,0 +1,19 @@
+{
+  "comment": "slug = simple-icons / skillicons slug used by scripts/generate_readme.py. Add/remove entries freely.",
+  "tools": [
+    { "name": "Splunk", "slug": "splunk" },
+    { "name": "Windows", "slug": "windows11", "skillicon": "windows" },
+    { "name": "Linux", "slug": "linux" },
+    { "name": "PowerShell", "slug": "powershell" },
+    { "name": "AWS", "slug": "amazonaws", "skillicon": "aws" },
+    { "name": "MITRE ATT&CK", "slug": "mitre" },
+    { "name": "Git", "slug": "git" },
+    { "name": "GitHub", "slug": "github" },
+    { "name": "HTML", "slug": "html5", "skillicon": "html" },
+    { "name": "CSS", "slug": "css3", "skillicon": "css" },
+    { "name": "Wireshark", "slug": "wireshark" },
+    { "name": "Kali Linux", "slug": "kalilinux" },
+    { "name": "VirusTotal", "slug": "virustotal" },
+    { "name": "Sysmon", "slug": "windows11", "skillicon": "windows" }
+  ]
+}

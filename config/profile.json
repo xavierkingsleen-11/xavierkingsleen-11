@@ -1,0 +1,30 @@
+{
+  "name": "Xavier Kingsleen A",
+  "role": "SOC ANALYST",
+  "tagline": "Better Security, Safer Tomorrows",
+  "terminal_lines": [
+    "Security Monitoring",
+    "Threat Detection",
+    "Incident Analysis",
+    "Turning Logs into Safer Tomorrows"
+  ],
+  "system_status": {
+    "system": "ONLINE",
+    "threat": "MONITORING",
+    "status": "OPEN TO OPPORTUNITIES",
+    "location": "TAMIL NADU, INDIA"
+  },
+  "operational_sequence": ["MONITOR", "DETECT", "INVESTIGATE", "RESPOND"],
+  "about_me": [
+    "BCA graduate focused on SOC Operations, Security Monitoring, Log Analysis, Linux, Windows Security, Windows Event Logs, PowerShell, Sysmon, Splunk, MITRE ATT&CK, Threat Detection, Alert Investigation, Incident Response and AWS Cloud Security.",
+    "Passionate about cybersecurity and aiming to build a career as a SOC Analyst, with a long-term goal in Cloud Security and AWS Security."
+  ],
+  "global_monitoring": {
+    "location": "Tamil Nadu, India",
+    "status": "Open to Opportunities",
+    "focus": "SOC Operations",
+    "caption": "REAL-TIME THREAT INTELLIGENCE | GLOBAL MONITORING | A SAFER TOMORROW"
+  },
+  "closing_quote": "\u201cEvery log has a story. Every alert has a truth.\u201d",
+  "closing_signoff": "\u2014 Logging off, Staying vigilant."
+}

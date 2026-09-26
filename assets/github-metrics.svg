@@ -1,0 +1,7 @@
+<svg viewBox="0 0 640 96" xmlns="http://www.w3.org/2000/svg">
+  <rect width="640" height="96" fill="#050b08"/>
+  <rect x="6" y="6" width="628" height="84" rx="8" fill="none" stroke="#1c4a2e" stroke-width="1.4"/>
+  <text x="320.0" y="54.0" fill="#7fdba3" font-family="Consolas, monospace" font-size="14" text-anchor="middle">
+    LIVE METRICS PENDING - runs on first GitHub Actions execution
+  </text>
+</svg>

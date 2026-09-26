@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>SOC Profile — Local Preview</title>
+<style>
+  :root{
+    --bg:#050b08;
+    --panel:#081410;
+    --border:#123321;
+    --green:#39ff8f;
+    --cyan:#5df3ff;
+    --text:#cdeede;
+    --dim:#7fdba3;
+    font-family: 'Consolas', 'JetBrains Mono', monospace;
+  }
+  *{box-sizing:border-box;}
+  body{
+    background:var(--bg);
+    color:var(--text);
+    margin:0;
+    padding:24px;
+    background-image:
+      linear-gradient(rgba(18,51,33,.35) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(18,51,33,.35) 1px, transparent 1px);
+    background-size:26px 26px;
+  }
+  .wrap{max-width:1180px;margin:0 auto;}
+  .panel{
+    border:1px solid var(--border);
+    border-radius:10px;
+    background:rgba(5,15,10,.7);
+    padding:18px;
+    position:relative;
+  }
+  .panel h3{
+    margin:0 0 10px;
+    color:var(--green);
+    font-size:13px;
+    letter-spacing:1px;
+    text-transform:uppercase;
+  }
+  .grid{display:grid;gap:18px;}
+  .hero-grid{grid-template-columns: 1.4fr 1fr; margin-bottom:18px;}
+  .two-col{grid-template-columns: 1fr 1fr; margin-bottom:18px;}
+  .skills-grid{grid-template-columns: repeat(5,1fr); margin-bottom:18px;}
+  .three-col{grid-template-columns: 1fr 1fr 1fr; margin-bottom:18px;}
+  @media (max-width:900px){
+    .hero-grid,.two-col,.three-col{grid-template-columns:1fr;}
+    .skills-grid{grid-template-columns:repeat(2,1fr);}
+  }
+
+  /* HERO */
+  .hero{position:relative; overflow:hidden; border-radius:10px; border:1px solid var(--border);}
+  .hero-img{
+    width:100%; height:340px; object-fit:cover; display:block;
+    filter: saturate(1.1) contrast(1.05);
+    mask-image: radial-gradient(ellipse at center, black 55%, transparent 92%);
+    -webkit-mask-image: radial-gradient(ellipse at center, black 55%, transparent 92%);
+  }
+  .scanlines{
+    position:absolute; inset:0; pointer-events:none;
+    background:repeating-linear-gradient(to bottom, rgba(0,0,0,.25) 0 1px, transparent 1px 3px);
+    mix-blend-mode:multiply;
+  }
+  .glitch-flash{
+    position:absolute; inset:0; pointer-events:none; opacity:0;
+    background:repeating-linear-gradient(to bottom, rgba(93,243,255,.25) 0 2px, transparent 2px 6px);
+    animation: glitchCycle 9s infinite;
+  }
+  @keyframes glitchCycle{
+    0%, 92%   { opacity:0; transform:translateX(0); }
+    92.5%     { opacity:.9; transform:translateX(-6px); }
+    93.5%     { opacity:.2; transform:translateX(8px); }
+    94.5%     { opacity:.8; transform:translateX(-4px); }
+    95.5%, 100%{ opacity:0; transform:translateX(0); }
+  }
+
+  .name{font-size:30px; color:var(--green); margin:6px 0 2px;}
+  .cursor{display:inline-block; width:10px; background:var(--green); animation:blink 1s step-end infinite;}
+  @keyframes blink{50%{opacity:0;}}
+  .role{color:var(--cyan); letter-spacing:2px; margin-bottom:10px;}
+  .lines div{color:var(--dim); margin:2px 0;}
+  .lines span{color:var(--green);}
+
+  .badges a{
+    display:inline-block; margin:10px 6px 0 0; padding:6px 12px;
+    border:1px solid var(--border); border-radius:6px; color:var(--text);
+    text-decoration:none; font-size:12px;
+  }
+  .badges a:hover{border-color:var(--green); color:var(--green);}
+
+  .tagline{margin-top:14px; color:var(--cyan);}
+
+  pre.status{color:var(--green); margin:0; font-size:13px; line-height:1.6;}
+  .seq{margin-top:12px; color:var(--dim); font-size:12px;}
+  .seq b{color:var(--cyan);}
+
+  ul{margin:6px 0 0 16px; padding:0; color:var(--dim); font-size:13px;}
+  li{margin:3px 0;}
+
+  .map-wrap{position:relative;}
+  .map-wrap img{width:100%; display:block; border-radius:6px;}
+
+  .tool-icons img{
+    height:38px; margin:4px 8px 4px 0; filter:drop-shadow(0 0 4px rgba(57,255,143,.35));
+  }
+
+  footer{margin-top:24px; text-align:center; color:var(--dim);}
+  footer .quote{color:var(--green); font-size:16px;}
+
+  .note{font-size:11px; color:#4f8064; margin-top:8px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="grid hero-grid">
+    <div class="hero">
+      <img class="hero-img" src="../assets/hero-hacker.gif" alt="hacker hero" />
+      <div class="scanlines"></div>
+      <div class="glitch-flash"></div>
+    </div>
+    <div class="panel">
+      <div>Hello, I'm</div>
+      <div class="name" id="typedName"><span class="cursor">&nbsp;</span></div>
+      <div class="role" id="role"></div>
+      <div class="lines" id="lines"></div>
+      <div class="badges" id="badges"></div>
+      <div class="tagline" id="tagline"></div>
+    </div>
+  </div>
+
+  <div class="grid two-col">
+    <div class="panel">
+      <h3>// System Status</h3>
+      <pre class="status" id="statusBlock"></pre>
+      <div class="seq" id="seq"></div>
+    </div>
+    <div class="panel">
+      <h3>// About Me</h3>
+      <div id="aboutMe"></div>
+    </div>
+  </div>
+
+  <div class="grid two-col">
+    <div class="panel">
+      <h3>// Global Threat Monitoring</h3>
+      <div class="map-wrap"><img src="../assets/threat-map.svg" alt="threat map" /></div>
+    </div>
+    <div class="panel">
+      <h3>// Skills Radar</h3>
+      <img src="../assets/skills-radar.svg" style="width:100%" alt="radar" />
+    </div>
+  </div>
+
+  <div class="grid skills-grid" id="skillsGrid"></div>
+
+  <div class="panel" style="margin-bottom:18px;">
+    <h3>// Tools & Technologies</h3>
+    <div class="tool-icons" id="toolIcons"></div>
+  </div>
+
+  <div class="grid three-col">
+    <div class="panel">
+      <h3>// Education</h3>
+      <div id="education"></div>
+    </div>
+    <div class="panel">
+      <h3>// Current Focus</h3>
+      <ul id="focus"></ul>
+    </div>
+    <div class="panel">
+      <h3>// Let's Connect</h3>
+      <div class="badges" id="badges2"></div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="quote" id="quote"></div>
+    <div id="signoff"></div>
+    <div class="note">Local dev preview only — closer to the approved design than GitHub's markdown renderer. README.md is the real GitHub-compatible profile. Run "python3 -m http.server" from the repo root and open /preview/index.html so the fetch() calls below can load ../config/*.json.</div>
+  </footer>
+</div>
+
+<script>
+async function loadJSON(path){
+  const r = await fetch(path);
+  return r.json();
+}
+
+async function init(){
+  const [profile, skills, tools, education, focus, social] = await Promise.all([
+    loadJSON('../config/profile.json'),
+    loadJSON('../config/skills.json'),
+    loadJSON('../config/tools.json'),
+    loadJSON('../config/education.json'),
+    loadJSON('../config/current_focus.json'),
+    loadJSON('../config/social.json'),
+  ]);
+
+  // Terminal typing effect for the name
+  const nameEl = document.getElementById('typedName');
+  const text = profile.name;
+  let i = 0;
+  function type(){
+    if(i <= text.length){
+      nameEl.innerHTML = text.slice(0,i) + '<span class="cursor">&nbsp;</span>';
+      i++;
+      setTimeout(type, 70);
+    }
+  }
+  type();
+
+  document.getElementById('role').textContent = profile.role;
+  document.getElementById('lines').innerHTML = profile.terminal_lines
+    .map(l => `<div><span>&gt;</span> ${l}</div>`).join('');
+  document.getElementById('tagline').textContent = `"${profile.tagline}" _`;
+
+  const badgeHTML = `
+    <a href="${social.github}" target="_blank">GitHub</a>
+    <a href="${social.linkedin}" target="_blank">LinkedIn</a>
+    <a href="${social.portfolio}" target="_blank">Portfolio</a>
+    <a href="mailto:${social.email}">Email</a>`;
+  document.getElementById('badges').innerHTML = badgeHTML;
+  document.getElementById('badges2').innerHTML = badgeHTML;
+
+  const st = profile.system_status;
+  document.getElementById('statusBlock').textContent =
+`SYSTEM   : ${st.system}
+THREAT   : ${st.threat}
+STATUS   : ${st.status}
+LOCATION : ${st.location}`;
+  document.getElementById('seq').innerHTML =
+    profile.operational_sequence.map(s => `<b>${s}</b>`).join(' -&gt; ');
+
+  document.getElementById('aboutMe').innerHTML =
+    profile.about_me.map(p => `<p>${p}</p>`).join('');
+
+  document.getElementById('skillsGrid').innerHTML = skills.categories.map(cat => `
+    <div class="panel">
+      <h3>${cat.title}</h3>
+      <ul>${cat.items.map(it => `<li>${it}</li>`).join('')}</ul>
+    </div>`).join('');
+
+  document.getElementById('toolIcons').innerHTML = tools.tools.map(t =>
+    `<img src="https://skillicons.dev/icons?i=${t.skillicon || t.slug}" title="${t.name}" alt="${t.name}" />`
+  ).join('');
+
+  document.getElementById('education').innerHTML = education.map(e => `
+    <p><b>${e.degree}</b><br>${e.institution}<br><span style="color:var(--dim)">${e.years}</span></p>
+  `).join('');
+
+  document.getElementById('focus').innerHTML =
+    focus.map(f => `<li>${f}</li>`).join('');
+
+  document.getElementById('quote').textContent = profile.closing_quote;
+  document.getElementById('signoff').textContent = profile.closing_signoff;
+}
+init();
+</script>
+</body>
+</html>

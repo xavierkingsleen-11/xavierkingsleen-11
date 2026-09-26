@@ -1,0 +1,40 @@
+{
+  "categories": [
+    {
+      "title": "SOC & SIEM",
+      "icon": "shield",
+      "items": ["Splunk", "SPL", "Security Monitoring", "Alert Investigation", "Incident Response"]
+    },
+    {
+      "title": "Operating Systems",
+      "icon": "terminal",
+      "items": ["Linux", "Windows", "Linux CLI", "Windows Event Logs"]
+    },
+    {
+      "title": "Threat Detection",
+      "icon": "target",
+      "items": ["MITRE ATT&CK", "IOC Analysis", "Log Analysis", "Threat Hunting"]
+    },
+    {
+      "title": "Networking",
+      "icon": "network",
+      "items": ["TCP/IP", "IPv4/IPv6", "DNS", "DHCP", "ARP", "Subnetting", "VLAN", "NAT"]
+    },
+    {
+      "title": "Scripting & Tools",
+      "icon": "code",
+      "items": ["PowerShell", "Bash", "Sysmon", "Wireshark"]
+    }
+  ],
+  "radar": {
+    "comment": "Values are 0-100 and drive scripts/generate_radar.py. Edit values here only \u2014 never hand-edit the generated SVG.",
+    "axes": [
+      { "label": "SOC / SIEM", "value": 85 },
+      { "label": "Windows / Linux", "value": 80 },
+      { "label": "Threat Detection", "value": 75 },
+      { "label": "Networking", "value": 78 },
+      { "label": "AWS / Cloud Security", "value": 55 },
+      { "label": "Scripting / Tools", "value": 65 }
+    ]
+  }
+}
