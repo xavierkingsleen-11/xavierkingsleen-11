@@ -1,0 +1,146 @@
+<div align="center">
+
+<img src="assets/hero-hacker.gif" width="100%" alt="{{ profile.name }} - SOC Analyst" />
+
+<br>
+
+# `{{ profile.name }}`
+### `{{ profile.role }}`
+
+{% for line in profile.terminal_lines %}
+&gt; {{ line }}<br>
+{%- endfor %}
+
+<br>
+
+[![GitHub](https://img.shields.io/badge/GitHub-24292F?style=for-the-badge&logo=github&logoColor=39ff8f&labelColor=050b08)]({{ social.github }})
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-24292F?style=for-the-badge&logo=linkedin&logoColor=5df3ff&labelColor=050b08)]({{ social.linkedin }})
+[![Portfolio](https://img.shields.io/badge/Portfolio-24292F?style=for-the-badge&logo=googlechrome&logoColor=39ff8f&labelColor=050b08)]({{ social.portfolio }})
+[![Email](https://img.shields.io/badge/Email-24292F?style=for-the-badge&logo=gmail&logoColor=5df3ff&labelColor=050b08)](mailto:{{ social.email }})
+
+> "{{ profile.tagline }}" _
+
+</div>
+
+---
+
+### `>_ About Me`
+
+{% for para in profile.about_me %}
+{{ para }}
+
+{% endfor %}
+
+---
+
+### `// GLOBAL THREAT MONITORING`
+
+<img src="assets/threat-map.gif" width="100%" alt="Global threat monitoring map - stylised visualisation, not real threat intelligence" />
+
+**LOCATION**<br>{{ profile.global_monitoring.location }}
+
+**STATUS**<br>{{ profile.global_monitoring.status }}
+
+**FOCUS**<br>{{ profile.global_monitoring.focus }}
+
+<sub>{{ profile.global_monitoring.caption }} &mdash; visual simulation only, not real threat telemetry.</sub>
+
+---
+
+### `>_ Skills & Technologies`
+
+{% for cat in skills.categories %}
+#### `{{ cat.title }}`
+{% for item in cat['items'] %}
+- {{ item }}
+{% endfor %}
+
+{% endfor %}
+
+---
+
+### `// SKILLS RADAR`
+
+<div align="center">
+<img src="assets/skills-radar.png" width="80%" alt="Skills radar chart" />
+</div>
+
+<sub>Profile visualisation values only - not certifications, exam scores or competency guarantees.</sub>
+
+---
+
+### `>_ Tools & Technologies`
+
+<table align="center">
+{% for row in tools.tools | batch(5) %}
+<tr>
+{% for tool in row %}
+<td align="center" width="140"><img src="{{ tool.icon }}" height="56" alt="{{ tool.name }}" /><br><sub><b>{{ tool.name }}</b></sub></td>
+{% endfor %}
+</tr>
+{% endfor %}
+</table>
+
+---
+
+### `>_ GitHub Activity`
+
+<div align="center">
+
+<img src="assets/github-metrics.png" alt="GitHub activity: repositories, commits, stars, followers, following" />
+
+</div>
+
+<sub>Real numbers from the GitHub API, refreshed every 6 hours by <code>.github/workflows/update-assets.yml</code> (not second-by-second).</sub>
+
+### `// CONTRIBUTION GRAPH`
+
+[![Contribution graph](https://github-readme-activity-graph.vercel.app/graph?username={{ social.github_username }}&bg_color=050b08&color=39ff8f&line=39ff8f&point=5df3ff&area=true&area_color=39ff8f&hide_border=true&title_color=39ff8f)]({{ social.github }})
+
+<sub>Real contribution data for <code>{{ social.github_username }}</code> from GitHub (served live by the open-source github-readme-activity-graph service).</sub>
+
+---
+
+### `// CONTRIBUTION SNAKE`
+
+<img src="https://raw.githubusercontent.com/{{ social.github_username }}/{{ social.github_username }}/output/github-contribution-grid-snake.gif" width="100%" alt="GitHub contribution snake" />
+
+<sub>Generated daily by <code>.github/workflows/snake.yml</code> (Platane/snk) from your real contribution data.</sub>
+
+---
+
+### `// EDUCATION`
+
+{% for edu in education %}
+**{{ edu.degree }}**<br>
+{{ edu.institution }}<br>
+`{{ edu.years }}`
+
+{% endfor %}
+
+---
+
+### `>_ Current Focus`
+
+{% for item in current_focus -%}
+- {{ item }}
+{% endfor %}
+
+---
+
+### `>_ Let's Connect`
+
+[![GitHub](https://img.shields.io/badge/GitHub-24292F?style=for-the-badge&logo=github&logoColor=39ff8f&labelColor=050b08)]({{ social.github }})
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-24292F?style=for-the-badge&logo=linkedin&logoColor=5df3ff&labelColor=050b08)]({{ social.linkedin }})
+[![Portfolio](https://img.shields.io/badge/Portfolio-24292F?style=for-the-badge&logo=googlechrome&logoColor=39ff8f&labelColor=050b08)]({{ social.portfolio }})
+[![Email](https://img.shields.io/badge/Email-24292F?style=for-the-badge&logo=gmail&logoColor=5df3ff&labelColor=050b08)](mailto:{{ social.email }})
+
+---
+
+<div align="center">
+
+### {{ profile.closing_quote }}
+
+{{ profile.closing_signoff }}
+
+</div>

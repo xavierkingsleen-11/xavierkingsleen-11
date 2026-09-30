@@ -1,0 +1,89 @@
+{
+  "categories": [
+    {
+      "title": "SOC & SIEM",
+      "icon": "shield",
+      "items": [
+        "Splunk",
+        "SPL",
+        "Security Monitoring",
+        "Alert Investigation",
+        "Incident Response"
+      ]
+    },
+    {
+      "title": "Operating Systems",
+      "icon": "terminal",
+      "items": [
+        "Linux",
+        "Windows",
+        "Linux CLI",
+        "Windows Event Logs"
+      ]
+    },
+    {
+      "title": "Threat Detection",
+      "icon": "target",
+      "items": [
+        "MITRE ATT&CK",
+        "IOC Analysis",
+        "Log Analysis",
+        "Threat Hunting"
+      ]
+    },
+    {
+      "title": "Networking",
+      "icon": "network",
+      "items": [
+        "TCP/IP",
+        "IPv4/IPv6",
+        "DNS",
+        "DHCP",
+        "ARP",
+        "Subnetting",
+        "VLAN",
+        "NAT"
+      ]
+    },
+    {
+      "title": "Scripting & Tools",
+      "icon": "code",
+      "items": [
+        "PowerShell",
+        "Bash",
+        "Sysmon",
+        "Wireshark"
+      ]
+    }
+  ],
+  "radar": {
+    "comment": "Percentages are YOUR self-assessment for the profile visual only (not certifications or scores). They have NOT been provided yet, so every value below is a neutral placeholder (50) and the radar is stamped PLACEHOLDER. Put your real values in and set \"confirmed\": true to remove the stamp.",
+    "confirmed": false,
+    "axes": [
+      {
+        "label": "SOC / SIEM",
+        "value": 50
+      },
+      {
+        "label": "Windows / Linux",
+        "value": 50
+      },
+      {
+        "label": "Threat Detection",
+        "value": 50
+      },
+      {
+        "label": "Networking",
+        "value": 50
+      },
+      {
+        "label": "AWS / Cloud Security",
+        "value": 50
+      },
+      {
+        "label": "Scripting / Tools",
+        "value": 50
+      }
+    ]
+  }
+}

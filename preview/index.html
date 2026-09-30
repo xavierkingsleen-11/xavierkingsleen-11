@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>SOC Profile — Local Preview</title>
+<style>
+  :root{
+    --bg:#050b08;
+    --border:#123321;
+    --green:#39ff8f;
+    --cyan:#5df3ff;
+    --text:#cdeede;
+    --dim:#7fdba3;
+    font-family: 'Consolas', 'JetBrains Mono', monospace;
+  }
+  *{box-sizing:border-box;}
+  body{
+    background:var(--bg);
+    color:var(--text);
+    margin:0;
+    padding:24px;
+    background-image:
+      linear-gradient(rgba(18,51,33,.35) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(18,51,33,.35) 1px, transparent 1px);
+    background-size:26px 26px;
+  }
+  .wrap{max-width:1180px;margin:0 auto;}
+  .panel{
+    border:1px solid var(--border);
+    border-radius:10px;
+    background:rgba(5,15,10,.7);
+    padding:18px;
+    position:relative;
+  }
+  .panel h3{
+    margin:0 0 10px;
+    color:var(--green);
+    font-size:13px;
+    letter-spacing:1px;
+    text-transform:uppercase;
+  }
+  .grid{display:grid;gap:18px;}
+  .two-col{grid-template-columns: 1fr 1fr; margin-bottom:18px;}
+  .skills-grid{grid-template-columns: repeat(5,1fr); margin-bottom:18px;}
+  .three-col{grid-template-columns: 1fr 1fr 1fr; margin-bottom:18px;}
+  /* HARD REQUIREMENT: desktop two/three-column grids collapse to a single
+     column on mobile - no fixed-width cards, no horizontal scrolling. */
+  @media (max-width:900px){
+    .two-col,.three-col{grid-template-columns:1fr;}
+    .skills-grid{grid-template-columns:repeat(2,1fr);}
+  }
+  @media (max-width:480px){
+    .skills-grid{grid-template-columns:1fr;}
+    body{padding:12px;}
+  }
+
+  /* HERO */
+  .hero{position:relative; overflow:hidden; border-radius:10px; border:1px solid var(--border); margin-bottom:18px;}
+  .hero-img{ width:100%; display:block; }
+  .scanlines{
+    position:absolute; inset:0; pointer-events:none;
+    background:repeating-linear-gradient(to bottom, rgba(0,0,0,.25) 0 1px, transparent 1px 3px);
+    mix-blend-mode:multiply;
+  }
+  .glitch-flash{
+    position:absolute; inset:0; pointer-events:none; opacity:0;
+    background:repeating-linear-gradient(to bottom, rgba(93,243,255,.25) 0 2px, transparent 2px 6px);
+    animation: glitchCycle 9s infinite;
+  }
+  @keyframes glitchCycle{
+    0%, 92%   { opacity:0; transform:translateX(0); }
+    92.5%     { opacity:.9; transform:translateX(-6px); }
+    93.5%     { opacity:.2; transform:translateX(8px); }
+    94.5%     { opacity:.8; transform:translateX(-4px); }
+    95.5%, 100%{ opacity:0; transform:translateX(0); }
+  }
+
+  .identity{text-align:center; margin-bottom:18px;}
+  .name{font-size:32px; color:var(--green); margin:6px 0 2px; letter-spacing:1px;}
+  /* Cursor has NO blink animation until typing finishes - the .done class
+     (added by JS after the last character) is what starts the blink. */
+  .cursor{display:inline-block; width:10px; background:var(--green); opacity:1;}
+  .cursor.done{animation:blink 1s step-end infinite;}
+  @keyframes blink{50%{opacity:0;}}
+  .role{color:var(--cyan); letter-spacing:2px; margin-bottom:10px; font-size:15px;}
+  .lines{margin-top:6px;}
+  .lines div{color:var(--dim); margin:2px 0;}
+  .lines span{color:var(--green);}
+
+  .badges{text-align:center;}
+  .badges a{
+    display:inline-block; margin:10px 6px 0 0; padding:6px 12px;
+    border:1px solid var(--border); border-radius:6px; color:var(--text);
+    text-decoration:none; font-size:12px; transition:border-color .2s, color .2s;
+  }
+  .badges a:hover{border-color:var(--green); color:var(--green);}
+
+  .tagline{margin-top:14px; color:var(--cyan); text-align:center;}
+
+  pre.status{color:var(--green); margin:0; font-size:13px; line-height:1.6; text-align:left; display:inline-block;}
+  .seq{margin-top:12px; color:var(--dim); font-size:12px;}
+  .seq b{color:var(--cyan);}
+
+  ul{margin:6px 0 0 16px; padding:0; color:var(--dim); font-size:13px;}
+  li{margin:3px 0;}
+
+  .map-wrap{position:relative;}
+  .map-wrap img{width:100%; display:block; border-radius:6px;}
+
+  img.contained{width:100%; display:block; border-radius:6px;}
+
+  .tools-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;}
+  .tool{border:1px solid var(--border);border-radius:8px;padding:12px 6px;text-align:center;font-size:11px;color:var(--text);transition:border-color .2s, box-shadow .2s;}
+  .tool:hover{border-color:var(--green);box-shadow:0 0 10px rgba(57,255,143,.25);}
+  .tool img{height:44px;display:block;margin:0 auto 6px;}
+  @media (max-width:600px){.tools-grid{grid-template-columns:repeat(3,1fr);}}
+  footer{margin-top:24px; text-align:center; color:var(--dim);}
+  footer .quote{color:var(--green); font-size:16px;}
+  .note{font-size:11px; color:#4f8064; margin-top:8px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="hero">
+    <img class="hero-img" src="../assets/hero-hacker.gif" alt="hacker hero" />
+    <div class="scanlines"></div>
+    <div class="glitch-flash"></div>
+  </div>
+
+  <div class="identity">
+    <div class="name" id="typedName"><span class="cursor" id="cursorEl">&nbsp;</span></div>
+    <div class="role" id="role"></div>
+    <div class="lines" id="lines"></div>
+    <div class="badges" id="badges"></div>
+    <div class="tagline" id="tagline"></div>
+  </div>
+
+
+  <div class="panel" style="margin-bottom:18px;">
+    <h3>&gt;_ About Me</h3>
+    <div id="aboutMe"></div>
+  </div>
+
+  <div class="panel" style="margin-bottom:18px;">
+    <h3>// Global Threat Monitoring</h3>
+    <div class="map-wrap"><img src="../assets/threat-map.gif" alt="threat map" /></div>
+    <p class="note">Stylised visualisation, not real threat intelligence.</p>
+  </div>
+
+  <div class="panel" style="margin-bottom:18px;">
+    <h3>&gt;_ Skills & Technologies</h3>
+    <div class="grid skills-grid" id="skillsGrid" style="margin-bottom:0;"></div>
+  </div>
+
+  <div class="panel" style="margin-bottom:18px;">
+    <h3>// Skills Radar</h3>
+    <img src="../assets/skills-radar.png" style="width:100%" alt="radar" />
+  </div>
+
+  <div class="panel" style="margin-bottom:18px;">
+    <h3>&gt;_ Tools & Technologies</h3>
+    <div class="tools-grid" id="toolsGrid"></div>
+  </div>
+
+  <div class="grid three-col">
+    <div class="panel">
+      <h3>// Education</h3>
+      <div id="education"></div>
+    </div>
+    <div class="panel">
+      <h3>&gt;_ Current Focus</h3>
+      <ul id="focus"></ul>
+    </div>
+    <div class="panel">
+      <h3>&gt;_ Let's Connect</h3>
+      <div class="badges" id="badges2" style="text-align:left;"></div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="quote" id="quote"></div>
+    <div id="signoff"></div>
+    <div class="note">
+      Local dev preview only — GitHub Activity metrics and the Contribution
+      Snake are generated by GitHub Actions (see SETUP.md) and aren't
+      simulated here. README.md is the real GitHub-compatible profile; this
+      page exists for typing/glitch/hover effects GitHub can't run.
+      Run "python3 -m http.server" from the repo root and open
+      /preview/index.html so the fetch() calls below can load ../config/*.json.
+    </div>
+  </footer>
+</div>
+
+<script>
+async function loadJSON(path){
+  const r = await fetch(path);
+  return r.json();
+}
+
+async function init(){
+  const [profile, skills, tools, education, focus, social] = await Promise.all([
+    loadJSON('../config/profile.json'),
+    loadJSON('../config/skills.json'),
+    loadJSON('../config/tools.json'),
+    loadJSON('../config/education.json'),
+    loadJSON('../config/current_focus.json'),
+    loadJSON('../config/social.json'),
+  ]);
+
+  // Terminal typing effect - cursor stays solid (no blink) until typing
+  // finishes, then the 'done' class starts the blink animation.
+  const nameEl = document.getElementById('typedName');
+  const text = profile.name;
+  let i = 0;
+  function type(){
+    if(i <= text.length){
+      nameEl.innerHTML = text.slice(0,i) + '<span class="cursor" id="cursorEl">&nbsp;</span>';
+      i++;
+      setTimeout(type, 80);
+    } else {
+      document.getElementById('cursorEl').classList.add('done');
+    }
+  }
+  type();
+
+  document.getElementById('role').textContent = profile.role;
+  document.getElementById('lines').innerHTML = profile.terminal_lines
+    .map(l => `<div><span>&gt;</span> ${l}</div>`).join('');
+  document.getElementById('tagline').textContent = `"${profile.tagline}" _`;
+
+  const badgeHTML = `
+    <a href="${social.github}" target="_blank">GitHub</a>
+    <a href="${social.linkedin}" target="_blank">LinkedIn</a>
+    <a href="${social.portfolio}" target="_blank">Portfolio</a>
+    <a href="mailto:${social.email}">Email</a>`;
+  document.getElementById('badges').innerHTML = badgeHTML;
+  document.getElementById('badges2').innerHTML = badgeHTML;
+
+
+  document.getElementById('aboutMe').innerHTML =
+    profile.about_me.map(p => `<p>${p}</p>`).join('');
+
+  document.getElementById('skillsGrid').innerHTML = skills.categories.map(cat => `
+    <div class="panel">
+      <h3>${cat.title}</h3>
+      <ul>${cat.items.map(it => `<li>${it}</li>`).join('')}</ul>
+    </div>`).join('');
+
+  document.getElementById('toolsGrid').innerHTML = tools.tools.map(t => {
+    const src = t.icon.startsWith('http') ? t.icon : '../' + t.icon;
+    return `<div class="tool"><img src="${src}" alt="${t.name}">${t.name}</div>`;
+  }).join('');
+
+  document.getElementById('education').innerHTML = education.map(e => `
+    <p><b>${e.degree}</b><br>${e.institution}<br><span style="color:var(--dim)">${e.years}</span></p>
+  `).join('');
+
+  document.getElementById('focus').innerHTML =
+    focus.map(f => `<li>${f}</li>`).join('');
+
+  document.getElementById('quote').textContent = profile.closing_quote;
+  document.getElementById('signoff').textContent = profile.closing_signoff;
+}
+init();
+</script>
+</body>
+</html>

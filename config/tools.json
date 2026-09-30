@@ -1,0 +1,65 @@
+{
+  "comment": "'icon' is either a repo-relative PNG (assets/icons/...) or a hosted URL. To add a tool: add an entry here (drop a PNG in assets/icons/ or use a URL) and re-run scripts/generate_readme.py.",
+  "tools": [
+    {
+      "name": "Splunk",
+      "icon": "assets/icons/splunk.png"
+    },
+    {
+      "name": "Windows",
+      "icon": "assets/icons/windows.png"
+    },
+    {
+      "name": "Linux",
+      "icon": "assets/icons/linux.png"
+    },
+    {
+      "name": "PowerShell",
+      "icon": "assets/icons/powershell.png"
+    },
+    {
+      "name": "AWS",
+      "icon": "assets/icons/aws.png"
+    },
+    {
+      "name": "MITRE ATT&CK",
+      "icon": "https://github.com/mitre-attack.png?size=128"
+    },
+    {
+      "name": "Git",
+      "icon": "assets/icons/git.png"
+    },
+    {
+      "name": "GitHub",
+      "icon": "assets/icons/github.png"
+    },
+    {
+      "name": "HTML",
+      "icon": "assets/icons/html5.png"
+    },
+    {
+      "name": "CSS",
+      "icon": "assets/icons/css3.png"
+    },
+    {
+      "name": "Wireshark",
+      "icon": "assets/icons/wireshark.png"
+    },
+    {
+      "name": "Kali Linux",
+      "icon": "assets/icons/kalilinux.png"
+    },
+    {
+      "name": "VirusTotal",
+      "icon": "assets/icons/virustotal.png"
+    },
+    {
+      "name": "Shodan",
+      "icon": "https://cdn.jsdelivr.net/gh/selfhst/icons/png/shodan.png"
+    },
+    {
+      "name": "Nmap",
+      "icon": "https://github.com/nmap.png?size=128"
+    }
+  ]
+}
