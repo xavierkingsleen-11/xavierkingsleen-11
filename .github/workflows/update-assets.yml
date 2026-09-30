@@ -1,0 +1,61 @@
+name: Update profile assets
+
+# Refreshes live GitHub activity numbers, the skills radar, the threat map
+# and re-renders README.md from config/*.json - then commits the result.
+#
+# Runs:
+#  - every 6 hours on a schedule
+#  - whenever config/*.json or templates/* change (so an edit shows up fast)
+#  - manually, via the "Run workflow" button (workflow_dispatch)
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  push:
+    paths:
+      - "config/**"
+      - "templates/**"
+      - "scripts/**"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Generate skills radar
+        run: python3 scripts/generate_radar.py
+
+      - name: Generate threat map
+        run: python3 scripts/generate_map.py
+
+      - name: Generate live GitHub metrics
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/generate_metrics.py
+
+      - name: Render README.md
+        run: python3 scripts/generate_readme.py
+
+      - name: Commit changes if anything updated
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md assets/
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: auto-update live profile assets [skip ci]"
+            git push
+          fi
